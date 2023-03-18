@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.use(cors({
-    origin: "https://supertien12.github.io/nckh/"
+    origin: "https://supertien12.github.io"
   }));
 
 app.use(express.json({limit: "50mb"}));
